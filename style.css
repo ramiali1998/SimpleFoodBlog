@@ -1,0 +1,360 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+header {
+  padding: 18px;
+  -webkit-box-shadow: 1px 2px #efefef;
+          box-shadow: 1px 2px #efefef;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .container p {
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header .container menu {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .container menu a {
+  font-family: "Montserrat-Medium";
+  src: url("font/Montserrat/Montserrat-Medium.ttf");
+  margin: 12px;
+  text-decoration: none;
+  font-size: 12px;
+  color: #707070;
+}
+
+main .SectionOne {
+  margin-top: 181px;
+}
+
+main .SectionOne .firstSection h1 {
+  font-family: "Montserrat-SemiBold";
+  src: url("font/Montserrat/Montserrat-SemiBold.ttf");
+  font-size: 25px;
+}
+
+main .SectionOne .firstSection .TextContainer {
+  margin-top: 30px;
+  width: 520px;
+  font-family: "Montserrat-Light";
+  src: url("font/Montserrat/Montserrat-Light.ttf");
+  line-height: 2;
+}
+
+main .SectionOne .firstSection .TextContainer .firstSectionButton {
+  padding: 19px 35px;
+  margin-top: 25px;
+  font-family: "Montserrat-Medium";
+  src: url("font/Montserrat/Montserrat-Medium.ttf");
+  background-color: #595C69;
+  color: #fff;
+  border: 0;
+  border-radius: 5px;
+}
+
+main .SectionOne .firstSection .TextContainer .firstSectionButton:hover {
+  cursor: pointer;
+  background-color: #46474f;
+}
+
+main .SectionTow .clearContainerSecondSection {
+  margin-top: 130px;
+}
+
+main .SectionTow .clearContainerSecondSection .backContainerSecondSection {
+  background-color: #FFF8F2;
+  width: 100%;
+  height: 710px;
+  margin-top: 190px;
+}
+
+main .SectionTow .clearContainerSecondSection .backContainerSecondSection .SecondSection {
+  max-width: 1100px;
+  margin: auto;
+}
+
+main .SectionTow .clearContainerSecondSection .backContainerSecondSection .SecondSection .Cards {
+  position: relative;
+  margin-bottom: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .SectionTow .clearContainerSecondSection .backContainerSecondSection .SecondSection .Cards .Card {
+  position: relative;
+  top: -60px;
+  margin-left: 32px;
+}
+
+main .SectionTow .clearContainerSecondSection .backContainerSecondSection .SecondSection .Cards .Card .ImagesSectionTow:hover {
+  -webkit-transform: scale(1.099);
+          transform: scale(1.099);
+}
+
+main .SectionTow .clearContainerSecondSection .backContainerSecondSection .SecondSection .Cards .Card .Tips-style {
+  margin-top: 30px;
+  font-size: 11px;
+  color: #9FA1AA;
+  font-family: "Montserrat-Medium";
+  src: url("font/Montserrat/Montserrat-Medium.ttf");
+  text-transform: uppercase;
+}
+
+main .SectionTow .clearContainerSecondSection .backContainerSecondSection .SecondSection .Cards .Card .Title {
+  margin-top: 12px;
+  font-family: "Montserrat-Medium";
+  font-size: 18px;
+  src: url("font/Montserrat/Montserrat-Medium.ttf");
+}
+
+main .SectionTow .clearContainerSecondSection .backContainerSecondSection .SecondSection .Cards .Card .PragraphContainer {
+  width: 352px;
+  margin-top: 16px;
+  line-height: 25px;
+}
+
+main .SectionThree {
+  margin-top: 138px;
+}
+
+main .SectionThree .TopTitelAndSeeAll {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .SectionThree .TopTitelAndSeeAll .Title-SectionThree {
+  font-size: 24px;
+  font-family: "Montserrat-Medium";
+  src: url("font/Montserrat/Montserrat-Medium.ttf");
+}
+
+main .SectionThree .TopTitelAndSeeAll .SeeAll-SectionThree .SeeAll-Style-Text {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+
+main .SectionThree .TopTitelAndSeeAll .SeeAll-SectionThree .RightArrowIcon {
+  margin-left: 12px;
+}
+
+main .Cards-SectionThree {
+  margin-top: 60px;
+  display: -ms-grid;
+  display: grid;
+  gap: 90px;
+  -ms-grid-columns: (292px)[3];
+      grid-template-columns: repeat(3, 292px);
+}
+
+main .Cards-SectionThree .Card-SectionThree {
+  margin-left: 32px;
+}
+
+main .Cards-SectionThree .Card-SectionThree .ImagesSectionThree:hover {
+  -webkit-transform: scale(1.099);
+          transform: scale(1.099);
+}
+
+main .Cards-SectionThree .Card-SectionThree .Tips-style-SectionThree {
+  margin-top: 30px;
+  font-size: 11px;
+  color: #9FA1AA;
+  font-family: "Montserrat-Medium";
+  src: url("font/Montserrat/Montserrat-Medium.ttf");
+  text-transform: uppercase;
+}
+
+main .Cards-SectionThree .Card-SectionThree .Title-SectionThree {
+  margin-top: 12px;
+  font-family: "Montserrat-Medium";
+  font-size: 18px;
+  src: url("font/Montserrat/Montserrat-Medium.ttf");
+}
+
+main .Cards-SectionThree .Card-SectionThree .PragraphContainer-SectionThree {
+  width: 352px;
+  margin-top: 16px;
+  line-height: 25px;
+}
+
+main .SectionFour .FillContainer {
+  background-color: #FFF8F2;
+  margin-top: 150px;
+  width: 100%;
+  height: 300px;
+}
+
+main .SectionFour .FillContainer .AllLeftAndRightContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .SectionFour .FillContainer .AllLeftAndRightContainer .LeftContainer-SectionFour {
+  margin-top: 93px;
+}
+
+main .SectionFour .FillContainer .AllLeftAndRightContainer .LeftContainer-SectionFour .Title-SectionFour {
+  font-size: 18px;
+  font-family: "Montserrat-SemiBold";
+  src: url("font/Montserrat/Montserrat-SemiBold.ttf");
+}
+
+main .SectionFour .FillContainer .AllLeftAndRightContainer .LeftContainer-SectionFour .PragraphContainer-SectionThree {
+  width: 543px;
+  margin-top: 31px;
+  line-height: 30px;
+  font-size: 15px;
+  font-family: "Montserrat-Light";
+  src: url("font/Montserrat/Montserrat-Light.ttf");
+}
+
+main .SectionFour .FillContainer .AllLeftAndRightContainer .RightContainer-SectionFour .Button-sectionFour {
+  margin-top: 141px;
+  width: 273px;
+  height: 56px;
+  background-color: #FFBF9D;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  font-size: 15px;
+  font-family: "Montserrat-Medium";
+  src: url("font/Montserrat/Montserrat-Medium.ttf");
+}
+
+main .SectionFour .FillContainer .AllLeftAndRightContainer .RightContainer-SectionFour .Button-sectionFour:hover {
+  cursor: pointer;
+  background-color: #faa171;
+}
+
+main .SectionFive {
+  margin: 150px;
+}
+
+main .SectionFive .AllLeftAndRightContainer-SectionFive {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .SectionFive .AllLeftAndRightContainer-SectionFive .LeftContainer img:hover {
+  -webkit-transform: scale(1.099);
+          transform: scale(1.099);
+}
+
+main .SectionFive .AllLeftAndRightContainer-SectionFive .RightContainer {
+  margin-left: 96px;
+  margin-top: 96px;
+}
+
+main .SectionFive .AllLeftAndRightContainer-SectionFive .RightContainer .title-SectionFive {
+  font-size: 26px;
+  font-family: "Montserrat-SemiBold";
+  src: url("font/Montserrat/Montserrat-SemiBold.ttf");
+}
+
+main .SectionFive .AllLeftAndRightContainer-SectionFive .RightContainer .Creator-SectionFive {
+  font-size: 12px;
+  margin-top: 10px;
+  color: #9FA1AA;
+  font-family: "Montserrat-Regular";
+  text-transform: uppercase;
+  src: url("font/Montserrat/Montserrat-Regular.ttf");
+}
+
+main .SectionFive .AllLeftAndRightContainer-SectionFive .RightContainer .Pragraph-SectionFive {
+  font-size: 15px;
+  margin-top: 32px;
+  line-height: 30px;
+  color: #000000;
+  font-family: "Montserrat-Light";
+  src: url("font/Montserrat/Montserrat-Light.ttf");
+}
+
+main .SectionFive .AllLeftAndRightContainer-SectionFive .RightContainer .buttonSectionFive {
+  margin-top: 32px;
+  padding: 19px 65px;
+  border-radius: 5px;
+  border: 0;
+  background-color: #595C69;
+  color: white;
+  font-family: "Montserrat-Light";
+  src: url("font/Montserrat/Montserrat-Light.ttf");
+}
+
+main .SectionFive .AllLeftAndRightContainer-SectionFive .RightContainer .buttonSectionFive:hover {
+  cursor: pointer;
+  background-color: #46474f;
+}
+
+footer {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 42px;
+}
+
+footer .FooterStyle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 13px;
+  font-family: "Montserrat-Light";
+  src: url("font/Montserrat/Montserrat-Light.ttf");
+}
+
+footer .FooterStyle a {
+  text-decoration: none;
+  color: gray;
+}
+/*# sourceMappingURL=style.css.map */
